@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "Nike Black Running Shoes", "brand": "Nike", "category": "shoes", "color": "black", "price": 95, "stock": 12, "description": "Lightweight running shoes with cushioned soles", "image": "data/images/01_nike_black_running_shoes.png"},
+  {"id": 2, "name": "Adidas White Sneakers", "brand": "Adidas", "category": "shoes", "color": "white", "price": 89, "stock": 15, "description": "Everyday white casual sneakers", "image": "data/images/02_adidas_white_sneakers.png"},
+  {"id": 3, "name": "Puma Blue Training Shoes", "brand": "Puma", "category": "shoes", "color": "blue", "price": 78, "stock": 9, "description": "Blue training shoes for indoor sports", "image": "data/images/03_puma_blue_training_shoes.png"},
+  {"id": 4, "name": "Canvas Red Sneakers", "brand": "Canvas", "category": "shoes", "color": "red", "price": 65, "stock": 11, "description": "Red canvas casual sneakers", "image": "data/images/04_canvas_red_sneakers.png"},
+  {"id": 5, "name": "Black Leather Backpack", "brand": "Urban", "category": "bags", "color": "black", "price": 80, "stock": 8, "description": "Compact black leather backpack", "image": "data/images/05_black_leather_backpack.png"},
+  {"id": 6, "name": "Red Travel Backpack", "brand": "Trail", "category": "bags", "color": "red", "price": 72, "stock": 13, "description": "Large red backpack for travel", "image": "data/images/06_red_travel_backpack.png"},
+  {"id": 7, "name": "Blue Cotton T-Shirt", "brand": "Basic", "category": "clothing", "color": "blue", "price": 25, "stock": 20, "description": "Soft blue cotton shirt", "image": "data/images/07_blue_cotton_tshirt.png"},
+  {"id": 8, "name": "Black Sports T-Shirt", "brand": "Active", "category": "clothing", "color": "black", "price": 30, "stock": 16, "description": "Breathable black sports shirt", "image": "data/images/08_black_sports_tshirt.png"},
+  {"id": 9, "name": "Silver Wireless Headphones", "brand": "SoundMax", "category": "electronics", "color": "silver", "price": 110, "stock": 6, "description": "Silver over-ear wireless headphones", "image": "data/images/09_silver_wireless_headphones.png"},
+  {"id": 10, "name": "Black Wireless Headphones", "brand": "SoundMax", "category": "electronics", "color": "black", "price": 105, "stock": 14, "description": "Black over-ear wireless headphones", "image": "data/images/10_black_wireless_headphones.png"},
+  {"id": 11, "name": "Brown Leather Watch", "brand": "Tempo", "category": "accessories", "color": "brown", "price": 120, "stock": 7, "description": "Brown leather strap analog watch", "image": "data/images/11_brown_leather_watch.png"},
+  {"id": 12, "name": "Gold Classic Watch", "brand": "Tempo", "category": "accessories", "color": "gold", "price": 145, "stock": 5, "description": "Gold strap classic analog watch", "image": "data/images/12_gold_classic_watch.png"}
+]

@@ -1,0 +1,40 @@
+=== E-COMMERCE MULTIMODAL SEARCH DEMO ===
+
+--- TEXT SEARCH ---
+Mode: text
+Input: black running shoes
+Processing: normalize words -> retrieve keyword matches -> rank with stock signal
+Retrieved candidates: 7
+1. [01] Nike Black Running Shoes | score=0.9920 (text=1.0000, image=0.0000, stock=0.6000) | $95
+2. [03] Puma Blue Training Shoes | score=0.4173 (text=0.4167, image=0.0000, stock=0.4500) | $78
+3. [08] Black Sports T-Shirt | score=0.3427 (text=0.3333, image=0.0000, stock=0.8000) | $30
+
+--- VOICE SEARCH (SIMULATED) ---
+Mode: voice
+Input: find white sneakers
+Processing: normalize words -> retrieve keyword matches -> rank with stock signal
+Retrieved candidates: 2
+1. [02] Adidas White Sneakers | score=0.9950 (text=1.0000, image=0.0000, stock=0.7500) | $89
+2. [04] Canvas Red Sneakers | score=0.5010 (text=0.5000, image=0.0000, stock=0.5500) | $65
+
+--- IMAGE SEARCH ---
+Mode: image
+Input: data\query_images\query_red_backpack.png
+Processing: read image -> extract visual vector -> cosine retrieval -> rank with stock signal
+Retrieved candidates: 10
+1. [06] Red Travel Backpack | score=0.9928 (text=0.0000, image=0.9998, stock=0.6500) | $72
+2. [05] Black Leather Backpack | score=0.9350 (text=0.0000, image=0.9459, stock=0.4000) | $80
+3. [08] Black Sports T-Shirt | score=0.8691 (text=0.0000, image=0.8705, stock=0.8000) | $30
+
+--- MULTIMODAL SEARCH ---
+Mode: multimodal
+Input: text='black running shoes'; image=data\query_images\query_black_running_shoe.png
+Processing: retrieve text and image candidates -> merge by product ID -> weighted ranking
+Retrieved candidates: 10
+1. [01] Nike Black Running Shoes | score=0.9911 (text=1.0000, image=0.9981, stock=0.6000) | $95
+2. [03] Puma Blue Training Shoes | score=0.6802 (text=0.4167, image=0.9530, stock=0.4500) | $78
+3. [04] Canvas Red Sneakers | score=0.5929 (text=0.2500, image=0.9375, stock=0.5500) | $65
+
+--- OPTIONAL ORDER LOOKUP ---
+Input: order=O001, customer=C001
+Result: O001 | Shipped | $95

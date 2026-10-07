@@ -1,0 +1,136 @@
+{
+  "number_of_queries": 13,
+  "successful_queries": 12,
+  "success_rate_percent": 92.31,
+  "criterion": "Top-1 product ID equals predefined expected ID; order ID matches for order lookup",
+  "incorrect_results": [
+    {
+      "query": "footwear for jogging",
+      "mode": "text",
+      "expected_top1_id": 1,
+      "actual_top1_id": null,
+      "actual_top1_name": "No result",
+      "ranking_score": "",
+      "success": false
+    }
+  ],
+  "results": [
+    {
+      "query": "black running shoes",
+      "mode": "text",
+      "expected_top1_id": 1,
+      "actual_top1_id": 1,
+      "actual_top1_name": "Nike Black Running Shoes",
+      "ranking_score": 0.992,
+      "success": true
+    },
+    {
+      "query": "red backpack",
+      "mode": "text",
+      "expected_top1_id": 6,
+      "actual_top1_id": 6,
+      "actual_top1_name": "Red Travel Backpack",
+      "ranking_score": 0.993,
+      "success": true
+    },
+    {
+      "query": "Nike shoes under 100 dollars",
+      "mode": "text",
+      "expected_top1_id": 1,
+      "actual_top1_id": 1,
+      "actual_top1_name": "Nike Black Running Shoes",
+      "ranking_score": 0.992,
+      "success": true
+    },
+    {
+      "query": "blue cotton t-shirt",
+      "mode": "text",
+      "expected_top1_id": 7,
+      "actual_top1_id": 7,
+      "actual_top1_name": "Blue Cotton T-Shirt",
+      "ranking_score": 1.0,
+      "success": true
+    },
+    {
+      "query": "find white sneakers",
+      "mode": "voice",
+      "expected_top1_id": 2,
+      "actual_top1_id": 2,
+      "actual_top1_name": "Adidas White Sneakers",
+      "ranking_score": 0.995,
+      "success": true
+    },
+    {
+      "query": "find black headphones",
+      "mode": "voice",
+      "expected_top1_id": 10,
+      "actual_top1_id": 10,
+      "actual_top1_name": "Black Wireless Headphones",
+      "ranking_score": 0.994,
+      "success": true
+    },
+    {
+      "query": "find brown leather watch",
+      "mode": "voice",
+      "expected_top1_id": 11,
+      "actual_top1_id": 11,
+      "actual_top1_name": "Brown Leather Watch",
+      "ranking_score": 0.987,
+      "success": true
+    },
+    {
+      "query": "red backpack query illustration",
+      "mode": "image",
+      "expected_top1_id": 6,
+      "actual_top1_id": 6,
+      "actual_top1_name": "Red Travel Backpack",
+      "ranking_score": 0.9928,
+      "success": true
+    },
+    {
+      "query": "black shoe query illustration",
+      "mode": "image",
+      "expected_top1_id": 1,
+      "actual_top1_id": 1,
+      "actual_top1_name": "Nike Black Running Shoes",
+      "ranking_score": 0.9902,
+      "success": true
+    },
+    {
+      "query": "black running shoes + black shoe image",
+      "mode": "multimodal",
+      "expected_top1_id": 1,
+      "actual_top1_id": 1,
+      "actual_top1_name": "Nike Black Running Shoes",
+      "ranking_score": 0.9911,
+      "success": true
+    },
+    {
+      "query": "red backpack + red backpack image",
+      "mode": "multimodal",
+      "expected_top1_id": 6,
+      "actual_top1_id": 6,
+      "actual_top1_name": "Red Travel Backpack",
+      "ranking_score": 0.9929,
+      "success": true
+    },
+    {
+      "query": "footwear for jogging",
+      "mode": "text",
+      "expected_top1_id": 1,
+      "actual_top1_id": null,
+      "actual_top1_name": "No result",
+      "ranking_score": "",
+      "success": false
+    },
+    {
+      "query": "order O001 for customer C001",
+      "mode": "order",
+      "expected_top1_id": "O001",
+      "actual_top1_id": "O001",
+      "actual_top1_name": "Shipped",
+      "ranking_score": "N/A",
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿query,mode,expected_top1_id,actual_top1_id,actual_top1_name,ranking_score,success
+black running shoes,text,1,1,Nike Black Running Shoes,0.992,True
+red backpack,text,6,6,Red Travel Backpack,0.993,True
+Nike shoes under 100 dollars,text,1,1,Nike Black Running Shoes,0.992,True
+blue cotton t-shirt,text,7,7,Blue Cotton T-Shirt,1.0,True
+find white sneakers,voice,2,2,Adidas White Sneakers,0.995,True
+find black headphones,voice,10,10,Black Wireless Headphones,0.994,True
+find brown leather watch,voice,11,11,Brown Leather Watch,0.987,True
+red backpack query illustration,image,6,6,Red Travel Backpack,0.9928,True
+black shoe query illustration,image,1,1,Nike Black Running Shoes,0.9902,True
+black running shoes + black shoe image,multimodal,1,1,Nike Black Running Shoes,0.9911,True
+red backpack + red backpack image,multimodal,6,6,Red Travel Backpack,0.9929,True
+footwear for jogging,text,1,,No result,,False
+order O001 for customer C001,order,O001,O001,Shipped,N/A,True

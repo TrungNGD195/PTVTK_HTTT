@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+ass6.vpp.bak_*
+_local_archive/
+~$*.docx

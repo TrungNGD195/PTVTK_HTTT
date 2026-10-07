@@ -1,6 +1,6 @@
 # Assignment 06 — Multimodal E-Commerce Search
 
-This package contains the editable report, Python prototype, product data, original sample illustrations, demonstration/evaluation output, and `ass6.vpp` with the Use Case Diagram, Task 3 Component Diagram, and Task 4 Voice-Search Sequence Diagram. The Word report includes the UML figures, a sample image pair, and screenshots of the Python program running in a terminal.
+This package contains the PDF report, editable Word report, Python prototype, product data, original sample illustrations, demonstration/evaluation output, and `ass6.vpp` with the Use Case Diagram, Task 3 Component Diagram, and Task 4 Voice-Search Sequence Diagram. The report includes the UML figures, a sample image pair, and screenshots of the Python program running in a terminal.
 
 ## Requirements
 
@@ -32,6 +32,7 @@ The `voice` argument is **already-transcribed text**. There is no microphone rec
 
 ```text
 Assignment_6/
+├── A6_V2_TrungNGD.pdf               # final PDF report
 ├── Bao_cao_Assignment_06.docx      # editable English report
 ├── ass6.vpp                         # Visual Paradigm project with three UML diagrams
 ├── main.py                          # command-line entry point
@@ -75,7 +76,7 @@ The sample PNGs are original generated illustrations made with Pillow for this a
 
 `python evaluate.py` writes the actual demo transcript and the Top-1 evaluation to `results/`. The current result is **12/13 successful queries (92.31%)**. The failed example, “footwear for jogging,” shows the keyword search limitation. The Word report includes the three Visual Paradigm diagrams and screenshots of text, simulated voice, image, and combined searches running in a terminal. The file `VISUAL_PARADIGM_GUIDE.md` lists the exact UML content.
 
-The assignment also requires `Bao_cao_Assignment_06.pdf`. Export it from the editable Word report before final submission; the PDF is not included yet. The Task 4 diagram is in `ass6.vpp`; its exported image is `results/task4_voice_search_sequence.png`. Do not regenerate the Word report with `tools/build_report.py` after editing it, because that script recreates the template and would replace the inserted figures with placeholders.
+The PDF report is `A6_V2_TrungNGD.pdf`. The Task 4 diagram is in `ass6.vpp`; its exported image is `results/task4_voice_search_sequence.png`. Do not regenerate the Word report with `tools/build_report.py` after editing it, because that script recreates the template and would replace the inserted figures with placeholders.
 
 ## Limitations
 
